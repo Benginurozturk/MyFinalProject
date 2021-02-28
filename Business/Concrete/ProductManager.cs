@@ -29,6 +29,8 @@ namespace Business.Concrete
         }
 
         //[ValidationAspect(typeof(ProductValidator))]
+        //Claim
+        //[SecuredOperation("product.add, admin")]
         public IResult Add(Product product)
         {
             //Aynı isimde ürün eklenemez
