@@ -16,5 +16,14 @@ namespace Business.Constants
 
         public static string CategoryLimitExceded = "Kategori limiti aşıldığı için yeni ürün eklenemiyor";
         public static string AuthorizationDenied = "Yetkiniz yok";
+
+        public static string UnitPriceInvalid = "Ürün Fiyatı Geçersiz";
+        public static string StartWithA = "Ürünler A harfi ile başlamalı";
+
+        public static string UserNotFound = "Kullanıcı bulunamadı";
+        public static string PasswordError = "Şifre hatalı";
+        public static string SuccessfulLogin = "Sisteme giriş başarılı";
+        public static string UserAlreadyExists = "Bu kullanıcı zaten mevcut";
+        public static string UserAddSuccess = "Kullanıcı başarılı bir şekilde eklendi.";
     }
 }
