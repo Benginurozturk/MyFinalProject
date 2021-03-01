@@ -14,6 +14,7 @@ using System.Text;
 using Business.CCS;
 using System.Linq;
 using Core.Utilities.Business;
+using Business.BusinessAspects.Autofac;
 
 namespace Business.Concrete
 {
@@ -30,7 +31,7 @@ namespace Business.Concrete
 
         //[ValidationAspect(typeof(ProductValidator))]
         //Claim
-        //[SecuredOperation("product.add, admin")]
+        [SecuredOperation("product.add, admin")]
         public IResult Add(Product product)
         {
             //Aynı isimde ürün eklenemez
